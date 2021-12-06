@@ -9,7 +9,17 @@
 }
 
 .link_fondo{
-    position: absolute;
-    top: 98%;
-    left: 85%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagen{
+    height: 300px;
+    width: 500px;
+    border-radius: 0.5cm;
+    box-shadow: 3px 3px 1px rgb(163, 128, 161);
+}
+
+.texto_centrado{
+    text-align: center;
 }
